@@ -87,7 +87,7 @@ h4 {
 
 .CTA{
 	font-size: calc(8px + 1vh);
-	font-weight: 700;
+	font-weight: 500;
 	text-decoration: none;
 	color: var(--white);
 	background-color: var(--dark-brown);
@@ -102,10 +102,15 @@ h4 {
 	transition-duration: var(--mediumT);
 }
 
-/*a {
+.read-link {
+	color: var(--dark-brown);
+	text-decoration: none;
+}
+
+.read-link :hover {
   color: var(--dark-brown);
   text-decoration: underline;
-}*/
+}
 
 /* Footer */
 .footer {
