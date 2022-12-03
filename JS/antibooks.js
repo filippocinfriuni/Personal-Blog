@@ -44,7 +44,7 @@ for (j = 0; j < books.length; j++) {
     for (i = 0; i < books[j][1].length; i++) {
         text += books[j][1][i]
         if(i < books[j][1].length - 1){
-            text += ', a'
+            text += ', '
         }
     }
     text += '</p></div></div>'
